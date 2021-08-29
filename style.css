@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@700&display=swap');
+/*this is the montserat font code*/
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@700&family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@600;700&family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap')
+	* {
+	margin: 0;
+	padding:  0;
+	box-sizing: border-box;
+}
+
+
+#contact-header {
+	font-size:32px;
+	text-align:center;
+	font-family: 'Khand', sans-serif;
+}
+
+#footer {
+	font-size: 21px;
+	text-align: center;
+	font-family: 'Montserrat',sans-serif;
+}
+#play {font-size: 18px;
+       text-align: center;
+       font-family: 'montserrat', sans-serif;
+}
+
+#naomi {font-size: 32px;
+        text-align: center;
+        font-family:'khand',sans-serif;
+}  
+
+#bella {font-size: 85px;
+       text-align: center;
+       font-family: 'khand',sans-serif;
+}
+
+#gig    {font-size: 21px;
+        text-align: center;
+        font-family: 'poppons',sans-serif; 
+}
+
+#kendell {font-size: 27px;
+          text-align:right ;
+          font-family:'khand',sans-serif;
+}
+ 
+#victoria  { font-size: 85px;
+            text-align:center;
+            font-family:'khand',sans-serif;
+}
+
+#yolanda {font-size:21px ;
+          text-align: center;
+          font-family: 'poppins',sans-serif;
+}
+
+#adriana  {font-size: 32px;
+          text-align: center;
+          font-family: 'khand',sans-serif;
+}
+
+#yasmin{ font-size: 85px;
+         text-align: center;
+         font-family:'khand',sans-serif;
+}        
+
+#carla {font-size: 23px;
+        text-align: center;
+        font-family: 'khand',sans-serif;
+}
+
+#netflix {font-size:21px ;
+          text-align: center;
+          font-family: poppins;
+}
+
+#you {font-size: 21px;
+      text-align: justify;
+      font-family: poppins;
+}
+
+#originals {font-size: 42.31px;
+        	text-align: center;
+            font-family: 'khand',sans-serif;
+} 
+
+#monster {font-size: 95px;
+                 text-align: center;
+                 font-family: 'khand',sans-serif;}
+
+#vamp    {font-size: 32px;
+         text-align: center;
+         font-family: 'poppins',sans-serif;
+}
+
+#gg     {font-size: 30.31px;
+        text-align: center;
+         font-family: 'khand',sans-serif;
+}
+  
+#bbt     {font-size: 95px;
+         text-align: center;
+         font-family: 'khand',sans-serif;
+}
+
+#vamp    {font-size: 32px;
+         text-align: center;
+         font-family: 'poppins',sans-serif;
+}
+
+#snowman    {font-size: 42.31px;
+            text-align: center;
+             font-family: 'khand',sans-serif;
+}
+ 
+#twoofus    {font-size: 95px;
+            text-align: center;
+            font-family: 'khand',sans-serif;
+}
+
+#stan     {font-size: 27px;
+          text-align:center ;
+           font-family: 'khand',sans-serif;
+}
+
+   #alag   {font-size: 31.89px;
+            text-align: center;
+            font-family: 'poppins',sans-serif;
+}
+
+#kasoor     {font-size: 62px ;
+            text-align: center;
+            font-family: 'khand',sans-serif;
+}
+
+#tunekaha    {font-size: 32px;
+              text-align: justify;
+              font-family: 'poppins',sans-serif;
+}
+
+#tumjabpass {font-size: 27px;
+            text-align: center;
+            font-family: 'khand',sans-serif;
+}
+  
+#aftab      {font-size: 42px;
+             text-align: justify;
+             font-family: 'poppins',sans-serif;
+}
+
+#sunlona    {font-size: 21px;
+            text-align:justify;
+            font-family: 'poppins',sans-serif;
+}
+
+#dollhouse  {font-size: 30.31px;
+            text-align: center;
+            font-family: 'khand',sans-serif;}    
+
+#potatohead {font-size:42px;
+            text-align: justify;
+            font-family: 'poppins',sans-serif;
+}
+
+#youngblood {font-size: 32px;
+            text-align: justify;
+            font-family: 'poppins';}
+
+
+#nolie {font-size:32px ;
+        text-align:center ;
+        font-family:'khand',sans-serif ;}
+
