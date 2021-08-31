@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Gulmohar</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -10,21 +12,27 @@
 
 <body>
 
-	<div class="header">
-
+	<div class="topnav" id="myTopnav" class="sticky">
+		<a href="#films" class="active">FILMS</a>
+		<a href="#theatre">THEATRE</a>
+		<a href="#about">ABOUT</a>
+		<a href="blog.html" target="_blank">BLOG</a>
+		<a href="#contact">CONTACT</a>
+		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 	</div>
 
-	<img src="images/banner.png" ; width="100%" height="550vh">
+	<img src="images/banner.png" ; width="100%" height="550vh" style="z-index: -111; position: relative;">
+	<img src="images/logo-banner.png" alt="" style="position: absolute; top: 20;">
 	<div class="container">
 
-		<p id="naomi" style="padding: 30px 0px;">SHORT FILMS</p>
+		<p id="naomi" style="padding: 30px 0px; text-decoration: underline;">SHORT FILMS</p>
 		<iframe src="https://player.vimeo.com/video/146800165?h=5654e1f049&title=0&byline=0&portrait=0" width="640"
 			height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-		<p><a href="https://vimeo.com/146800165">Changing Chesapeake: Facing Warmer Waters</a> from <a
-				href="https://vimeo.com/chesapeakebay">Chesapeake Bay Program</a> on <a
-				href="https://vimeo.com">Vimeo</a>.</p>
+		<p style="text-align: center;"><a href="https://vimeo.com/146800165">...</a>  <a
+				href="https://vimeo.com/chesapeakebay">..</a>  <a
+				href="https://vimeo.com"></a>.</p>
 
-		<p id="bella">Aamcha Tharlay</p>
+		<p id="bella" style="padding-top: 10px;">Aamcha Tharlay</p>
 		<P id="gigi" class="text-center">Dictumst convallis pharetra ultricies adipiscing sed ut ipsum egestas
 			sollicitudin. Viverra blandit
 			nunc, in lectus morbi ut in. Quisque convallis morbi ut pulvinar tincidunt. Amet cursus aliquam feugiat
@@ -38,7 +46,7 @@
 
 		<iframe src="https://player.vimeo.com/video/146800165?h=5654e1f049&title=0&byline=0&portrait=0" width="640"
 			height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-		<p><a href="https://vimeo.com/146800165">Changing Chesapeake: Facing Warmer Waters</a> from <a
+		<p style="text-align: center;"><a href="https://vimeo.com/146800165">Changing Chesapeake: Facing Warmer Waters</a> from <a
 				href="https://vimeo.com/chesapeakebay">Chesapeake Bay Program</a> on <a
 				href="https://vimeo.com">Vimeo</a>.</p>
 
@@ -70,14 +78,15 @@
 			nunc, in lectus morbi ut in. Quisque convallis morbi ut pulvinar tincidunt. Amet cursus aliquam feugiat
 			lectus.
 			Et.</p>
-		</div>
-		<div class="about-section" style="position: relative; margin-top: 70px;">
-			<img src="images/about-pic.png" alt="" width="100%" height="450px;">
-			<p id="about-text">ABOUT</p>
-		</div>
+	</div>
+	<div class="about-section" style="position: relative; margin-top: 70px;">
+		<img src="images/about-pic.png" alt="" width="100%" height="450px;">
+		<p id="about-text">ABOUT</p>
+	</div>
 
-		<div class="container">
-		<p id="you" style="font-size: 15px; margin-top: 80px; padding: 0px 70px;">Luctus ut feugiat a, proin. Tortor dolor id risus porta. Nulla venenatis, pretium, turpis amet
+	<div class="container">
+		<p id="you" style="font-size: 15px; margin-top: 80px; padding: 0px 70px;">Luctus ut feugiat a, proin. Tortor
+			dolor id risus porta. Nulla venenatis, pretium, turpis amet
 			mattis.
 			Tortor magnis quis hac proin et sed. Ac, et, eget nullam pretium a nullam. Tempus at rutrum ridiculus nunc
 			et.<br>
@@ -100,16 +109,16 @@
 		<p id="footer" style="font-size: 15px;;">76202 35955 <br>
 			gulmoharcn@gmail.com
 		</p>
-	
-	
-	<div style="margin: 0px auto; width: 12.5%; padding-top: 20px;">
-		<img style="margin-right:  10px;" src="images/facebook.png" height="27.9px" width="27.9px">
-		<img style="margin-right: 10px;" src="images/insata.png" height="27.9px" width="27.9px">
-		<img src="images/whatsapp.png" height="27.9px" width="27.9px">
-	</div>
-	<hr style="margin-bottom: 20px; margin-top: 20px;">
-	<div style="font-size: 15px; margin-bottom: 20px;;" id="play">All Rights Reserved<br>
-		© Gulmohar Production 2021</div>
+
+
+		<div style="margin: 0px auto; width: 12.5%; padding-top: 20px;">
+			<img style="margin-right:  10px;" src="images/facebook.png" height="27.9px" width="27.9px">
+			<img style="margin-right: 10px;" src="images/insata.png" height="27.9px" width="27.9px">
+			<img src="images/whatsapp.png" height="27.9px" width="27.9px">
+		</div>
+		<hr style="margin-bottom: 20px; margin-top: 20px;">
+		<div style="font-size: 15px; margin-bottom: 20px;;" id="play">All Rights Reserved<br>
+			© Gulmohar Production 2021</div>
 
 	</div>
 
