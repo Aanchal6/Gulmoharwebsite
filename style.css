@@ -163,7 +163,7 @@ iframe {
 }
 
 #kendell {font-size: 27px;
-          text-align:right ;
+          text-align: justify;
           font-family:'khand',sans-serif;
 }
  
@@ -172,8 +172,9 @@ iframe {
             font-family:'khand',sans-serif;
 }
 
-#yolanda {font-size:21px ;
+#yolanda { font-size:18px;
           text-align: center;
+          margin: 0 30%;
           font-family: 'poppins',sans-serif;
 }
 
@@ -185,6 +186,7 @@ iframe {
 #yasmin{ font-size: 85px;
          text-align: center;
          font-family:'khand',sans-serif;
+         padding-top: 40px;;
 }        
 
 #carla {font-size: 23px;
@@ -192,8 +194,9 @@ iframe {
         font-family: 'khand',sans-serif;
 }
 
-#netflix {font-size:21px ;
+#netflix {font-size:18px;
           text-align: center;
+          margin: 0 15%;
           font-family: poppins;
 }
 
